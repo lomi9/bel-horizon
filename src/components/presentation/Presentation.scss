@@ -1,0 +1,52 @@
+@import "../../styles/utilities.scss";
+
+.presentation {
+    background-color: #F1F0EA;
+    padding-top: 2%;
+    &__section{
+        padding: 5%;
+        width: 100%;
+        &-top{
+            width: 100%;
+            &-title{
+            display: flex;
+            justify-content: center;
+            @include title-style;
+            padding-bottom: 1%;
+
+            }
+        }
+        &-content{
+            display: flex;
+            width: 100%;
+            &-image{
+                width: 47%;
+                &-img{
+                    width: 100%;
+                    position: center;
+                    padding: 17%;
+                    overflow: hidden;
+
+                }
+
+            }
+            &-text{
+                display: flex;
+                flex-wrap: wrap;
+                align-content: center;
+                justify-content: flex-start;
+                width: 53%;
+
+                &-p{
+                    padding: 0.5rem 0;
+                    @include text-style;
+                    line-height: 1.3rem;
+
+                }
+
+            }
+
+        }
+
+    }
+}

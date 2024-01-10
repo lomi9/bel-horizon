@@ -1,0 +1,14 @@
+
+$main-color-2 : #474747;
+
+@mixin title-style{
+    font-size: 2rem;
+    color: #474747;
+    font-family: 'Italiana', sans-serif; 
+}
+
+@mixin text-style{
+    font-size: 0.9rem;
+    color: #474747;
+    font-family: 'Jomolhari', serif;
+}
