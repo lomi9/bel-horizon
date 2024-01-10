@@ -1,0 +1,58 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10 ;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-content: center;
+    font-family: 'Poppins', sans-serif;
+    color: #474747;
+    font-size: 0.9rem;
+    border-bottom: solid 1px #474747;
+
+    &__left{
+        width: 33%;
+        display: flex;
+        justify-content: center;
+        padding-left: 5%;
+
+        &-items{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: flex-start;
+            &-item{
+                padding-right: 15%;
+            }
+            
+        }
+
+    }
+
+    &__logo{
+        width: 33%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        padding: 1% 0;
+
+        &-img{
+            width: 10vw;
+        
+        }
+        
+    }
+
+    &__right{
+        width: 33%;
+        padding-right: 5%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-content: center;
+        
+    }
+}

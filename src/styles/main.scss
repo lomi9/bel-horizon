@@ -1,0 +1,15 @@
+@import "../pages/Home.scss";
+@import "../components/banner/Banner.scss";
+@import "../components/navbar/Navbar.scss";
+
+body {
+    background-color: transparent;
+    box-sizing: border-box;
+    min-width: 300px;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
